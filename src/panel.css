@@ -1,3 +1,35 @@
-.found {
-  color: red;
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  background-color: #B8AE9C;
+}
+.title {
+  background-color: #595241;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  color: #ACCFCC;
+  font-size: 3.0rem;
+}
+.tools {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.each {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  white-space: nowrap;
+  background-color: #FFFFFF;
+  font-size: 2.4rem;
+  color: #B8AE9C;
+  text-decoration: none;
+  transition: background-color 2s;
+}
+.each.found {
+  background-color: #8A0817;
+  color: #FFFFFF;
 }
